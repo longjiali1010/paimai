@@ -9,8 +9,9 @@ import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import com.accp.dao.PmpMapper;
-import com.accp.pojo.Pmp;
+import com.example.demo.dao.*;
+import com.example.demo.pojo.*;
+import com.example.demo.vo.*;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.github.pagehelper.PageHelper;

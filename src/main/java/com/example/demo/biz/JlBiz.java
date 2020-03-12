@@ -9,14 +9,11 @@ import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.accp.dao.JlMapper;
-import com.accp.pojo.Jl;
-import com.accp.pojo.Pmp;
-import com.accp.vo.jieshupmpvo;
-import com.accp.vo.jingpaivo;
-import com.accp.vo.jingpaizhongpmpvo;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
+import com.example.demo.dao.*;
+import com.example.demo.pojo.*;
+import com.example.demo.vo.*;
 
 @Service
 @Transactional(propagation = Propagation.SUPPORTS, isolation = Isolation.READ_COMMITTED, readOnly = true)
