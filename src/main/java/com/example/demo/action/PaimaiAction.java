@@ -104,10 +104,10 @@ public class PaimaiAction {
 		Map<String, Object> message = new HashMap<String, Object>();
 		if(count!=0) {
 			message.put("code", "200");
-			message.put("msg", "竞价成功");
+			message.put("msg", "成功");
 		}else {
 			message.put("code", "300");
-			message.put("msg", "竞价失败");
+			message.put("msg", "失败");
 		}
 		return message;
 	}
@@ -128,7 +128,7 @@ public class PaimaiAction {
 				message.put("msg", "敬请期待");
 			}else {
 				message.put("code", "300");
-				message.put("msg", "溜了溜了");
+				message.put("msg", "300");
 			}
 		} catch (ParseException e) {
 			// TODO Auto-generated catch block
@@ -189,7 +189,7 @@ public class PaimaiAction {
 			}else{
 				pmpbiz.Delepmp(pmpid);
 				message.put("code", "200");
-				message.put("msg", "溜了溜了");
+				message.put("msg", "200");
 			}
 		} catch (ParseException e) {
 			// TODO Auto-generated catch block
