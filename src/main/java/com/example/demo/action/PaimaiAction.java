@@ -21,15 +21,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.accp.biz.JlBiz;
-import com.accp.biz.PmpBiz;
-import com.accp.biz.UserBiz;
-import com.accp.pojo.Jl;
-import com.accp.pojo.Pmp;
-import com.accp.pojo.User;
-import com.accp.vo.jieshupmpvo;
-import com.accp.vo.jingpaivo;
-import com.accp.vo.jingpaizhongpmpvo;
+import com.example.demo.biz.*;
+import com.example.demo.pojo.*;
+import com.example.demo.vo.*;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 
