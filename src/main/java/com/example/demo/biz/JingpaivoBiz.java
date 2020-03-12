@@ -1,5 +1,5 @@
 package com.example.demo.biz;
 
-public class Biz {
-
+public class JingpaivoBiz {
+	
 }
